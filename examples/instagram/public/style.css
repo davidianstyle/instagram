@@ -86,12 +86,6 @@ ul {
   font-weight: 100;
 }
 
-/* Chat page */
-
-.chat.page {
-  display: none;
-}
-
 /* Font */
 
 .messages {
@@ -109,14 +103,12 @@ ul {
   text-align: center;
 }
 
-/* Messages */
-
-.chatArea {
+/* Pictures */
+.pictureArea {
   height: 100%;
   padding-bottom: 60px;
 }
-
-.messages {
+.pictures {
   height: 100%;
   margin: 0;
   overflow-y: scroll;
@@ -133,18 +125,4 @@ ul {
   overflow: hidden;
   padding-right: 15px;
   text-align: right;
-}
-
-/* Input */
-
-.inputMessage {
-  border: 10px solid #000;
-  bottom: 0;
-  height: 60px;
-  left: 0;
-  outline: none;
-  padding-left: 10px;
-  position: absolute;
-  right: 0;
-  width: 100%;
 }
