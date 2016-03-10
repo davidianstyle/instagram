@@ -1,0 +1,12 @@
+{
+  "name": "instagram",
+  "version": "0.0.0",
+  "description": "Instagram feed app using socket.io",
+  "main": "index.js",
+  "author": "David Chang",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "express": "3.4.8"
+  }
+}
