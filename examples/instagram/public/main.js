@@ -31,7 +31,7 @@ $(function() {
 	    $loginPage.off('click');
 
 	    // Tell the server your username
-	    socket.emit('add user', username);
+	    socket.emit('add hashtag', username);
 	}
     }
 
@@ -122,4 +122,13 @@ $(function() {
 	log(data.username + ' left');
     });
 
+    // Whenever the server emits 'image added', insert it into the body
+    socket.on('image added', function(data) {
+	
+    });
+
+    // When the server emits the token data, log it in the console
+    socket.on('token received', function(data) {
+	console.log(data);
+    });
 });
